@@ -1,15 +1,15 @@
-import Header from "../components/header";
-export default function Stats() {
+  import Header from "../components/header";
+  export default function Stats() {
   return (
-    <div className="container py-4 bg-dark text-light min-vh-100">
-        <Header />
-      <main className="bg-secondary rounded shadow-sm p-4">
+    <div className="dashboard-container">
+      <Header />
+      <main className="dashboard-main">
         <div className="stats-overview">
-          <h2 className="h3 mb-3 text-light">Season Stats Overview</h2>
-          <ul className="list-group list-group-flush mb-3">
-            <li className="list-group-item bg-dark text-light">Total Games: 256</li>
-            <li className="list-group-item bg-dark text-light">Average Points per Game: 24.5</li>
-            <li className="list-group-item bg-dark text-light">Total Touchdowns: 1,200</li>
+          <h2 className="dashboard-title">Season Stats Overview</h2>
+          <ul className="stats-list">
+            <li className="stats-list-item">Total Games: 256</li>
+            <li className="stats-list-item">Average Points per Game: 24.5</li>
+            <li className="stats-list-item">Total Touchdowns: 1,200</li>
           </ul>
         </div>
       </main>

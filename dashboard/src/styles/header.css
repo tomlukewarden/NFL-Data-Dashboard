@@ -1,0 +1,55 @@
+/* Custom styles for NFL Data Dashboard header and navigation */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  background: transparent;
+}
+
+.header-title {
+  font-size: 2.7rem;
+  font-weight: 600;
+  color: #f5f6fa;
+  margin-bottom: 1.2rem;
+  letter-spacing: -1.5px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.header-nav {
+  width: 100%;
+  background: rgba(255,255,255,0.04);
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  padding: 0.5rem 0.5rem;
+  backdrop-filter: blur(8px);
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav-link {
+  font-size: 1.15rem;
+  color: #f5f6fa;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 12px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  font-family: inherit;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.header-nav-link:hover, .header-nav-link.active {
+  background: rgba(255,255,255,0.12);
+  color: #1e90ff;
+  box-shadow: 0 2px 8px rgba(30,144,255,0.08);
+}
