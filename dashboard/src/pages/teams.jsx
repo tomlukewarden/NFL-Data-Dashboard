@@ -1,10 +1,8 @@
+import Header from "../components/header";
 export default function Teams() {
   return (
     <div className="container py-4 bg-dark text-light min-vh-100">
-      <header className="d-flex flex-column align-items-center mb-4">
-        <h1 className="display-4 fw-bold text-info mb-3">NFL Teams</h1>
-      </header>
-
+        <Header />
       <main className="bg-secondary rounded shadow-sm p-4">
         <div className="team-list">
           <h2 className="h3 mb-3 text-light">All NFL Teams</h2>

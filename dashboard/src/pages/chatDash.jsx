@@ -1,9 +1,9 @@
+import Header from "../components/header";
+
 export default function ChatDash() {
   return (
     <div className="container py-4 bg-dark text-light min-vh-100">
-      <header className="d-flex flex-column align-items-center mb-4">
-        <h1 className="display-4 fw-bold text-info mb-3">NFL Prediction Chatbot</h1>
-      </header>
+        <Header />
 
       <main className="bg-secondary rounded shadow-sm p-4">
         <div className="chat-interface">
