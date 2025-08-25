@@ -1,10 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import MainDash from "./src/pages/mainDash";       
+
+import React, { useState } from "react";
+import MainDash from "./src/pages/mainDash";
 
 function App() {
   return (
-    <MainDash />
+    <div>
+      <MainDash />
+    </div>
   );
 }
 
